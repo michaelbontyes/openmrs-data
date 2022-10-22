@@ -1,0 +1,204 @@
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2032) |2022-10-21T19:13:55,946| Unable to find a runtime properties file at /openmrs/openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2032) |2022-10-21T19:13:55,957| Unable to find a runtime properties file at /openmrs/openmrs-runtime.properties
+INFO - Listener.contextInitialized(217) |2022-10-21T19:13:55,957| Using runtime properties file: /openmrs/data/openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2032) |2022-10-21T19:13:55,960| Unable to find a runtime properties file at /openmrs/openmrs-runtime.properties
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2022-10-21T19:13:56,167| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2022-10-21T19:13:56,169| looking for un-run change sets in snapshot version '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:13:56,721| Cannot load service: liquibase.parser.ChangeLogParser: Provider liquibase.parser.core.json.JsonChangeLogParser could not be instantiated
+INFO - Slf4JLogger.log(43) |2022-10-21T19:13:56,724| Cannot load service: liquibase.parser.ChangeLogParser: Provider liquibase.parser.core.yaml.YamlChangeLogParser could not be instantiated
+INFO - Slf4JLogger.log(43) |2022-10-21T19:13:57,553| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:13:57,978| file 'org/openmrs/liquibase/snapshots/schema-only/liquibase-schema-only-2.4.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2022-10-21T19:13:58,241| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:13:58,470| file 'org/openmrs/liquibase/snapshots/core-data/liquibase-core-data-2.4.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:13:58,476| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2022-10-21T19:13:58,477| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:13:58,595| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2022-10-21T19:13:58,623| file 'org/openmrs/liquibase/updates/liquibase-update-to-latest-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:13:58,623| Failed to restore the auto commit to true
+INFO - EhCacheManagerFactoryBean.afterPropertiesSet(134) |2022-10-21T19:14:00,107| Initializing EhCache CacheManager
+WARN - Listener.loadBundledModules(521) |2022-10-21T19:14:06,450| Bundled module folder doesn't exist: /usr/local/tomcat/webapps/openmrs/WEB-INF/bundledModules
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2032) |2022-10-21T19:14:06,450| Unable to find a runtime properties file at /openmrs/openmrs-runtime.properties
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2022-10-21T19:14:06,539| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2022-10-21T19:14:06,539| looking for un-run change sets in snapshot version '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:06,810| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:14:07,039| file 'org/openmrs/liquibase/snapshots/schema-only/liquibase-schema-only-2.4.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:07,157| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:14:07,336| file 'org/openmrs/liquibase/snapshots/core-data/liquibase-core-data-2.4.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:14:07,336| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2022-10-21T19:14:07,336| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:07,442| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2022-10-21T19:14:07,472| file 'org/openmrs/liquibase/updates/liquibase-update-to-latest-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:14:07,472| Failed to restore the auto commit to true
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,281| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,384| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,392| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,594| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,623| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,645| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,842| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,892| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:09,899| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:11,460| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:13,590| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,088| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,195| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,235| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,239| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,762| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,854| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,860| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,954| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,980| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:14,985| Successfully released change log lock
+WARN - Module.expandExtensionNames(573) |2022-10-21T19:14:15,026| attachments: Unable to create instance of class defined for extension point: org.openmrs.admin.list
+java.lang.ClassNotFoundException: org.openmrs.module.attachments.extension.html.AdminList
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1415) ~[catalina.jar:8.5.70]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223) ~[catalina.jar:8.5.70]
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:564) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292]
+	at org.openmrs.module.Module.expandExtensionNames(Module.java:565) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.Module.getExtensions(Module.java:492) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleFactory.startModuleInternal(ModuleFactory.java:672) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.api.context.Daemon$1.run(Daemon.java:86) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,097| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,120| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,126| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,372| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,400| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,405| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,502| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,529| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,533| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,871| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,935| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:15,943| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,071| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,100| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,110| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,198| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,233| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,238| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,418| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,461| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,468| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,591| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,641| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,646| Successfully released change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,726| Reading from openmrs.liquibasechangelog
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,762| Successfully acquired change log lock
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:16,767| Successfully released change log lock
+INFO - EhCacheManagerFactoryBean.destroy(192) |2022-10-21T19:14:17,122| Shutting down EhCache CacheManager
+INFO - ServiceContext.startRefreshingContext(821) |2022-10-21T19:14:17,123| Refreshing Context
+INFO - EhCacheManagerFactoryBean.afterPropertiesSet(134) |2022-10-21T19:14:21,159| Initializing EhCache CacheManager
+INFO - ServiceContext.doneRefreshingContext(832) |2022-10-21T19:14:32,979| Done refreshing Context
+WARN - IdgenTask.run(32) |2022-10-21T19:14:34,484| Not running scheduled task. DaemonToken = null; enabled = false
+WARN - AdvicePoint.getClassInstance(64) |2022-10-21T19:14:40,065| Could not get instance for advice point [org.openmrs.module.appointments.service.AppointmentServiceDefinitionService]
+java.lang.NoClassDefFoundError: org/ict4h/atomfeed/transaction/AFTransactionWork
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:1.8.0_292]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671) ~[?:1.8.0_292]
+	at java.lang.Class.getConstructor0(Class.java:3075) ~[?:1.8.0_292]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_292]
+	at org.openmrs.module.AdvicePoint.getClassInstance(AdvicePoint.java:61) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleFactory.loadAdvice(ModuleFactory.java:882) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:913) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:844) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:652) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:632) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:300) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.ict4h.atomfeed.transaction.AFTransactionWork
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1415) ~[catalina.jar:8.5.70]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223) ~[catalina.jar:8.5.70]
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:564) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292]
+	... 12 more
+WARN - AdvicePoint.getClassInstance(64) |2022-10-21T19:14:40,066| Could not get instance for advice point [org.openmrs.module.appointments.service.AppointmentsService]
+java.lang.NoClassDefFoundError: org/ict4h/atomfeed/transaction/AFTransactionWork
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:1.8.0_292]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671) ~[?:1.8.0_292]
+	at java.lang.Class.getConstructor0(Class.java:3075) ~[?:1.8.0_292]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_292]
+	at org.openmrs.module.AdvicePoint.getClassInstance(AdvicePoint.java:61) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleFactory.loadAdvice(ModuleFactory.java:882) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:913) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:844) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:652) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:632) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:300) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.ict4h.atomfeed.transaction.AFTransactionWork
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1415) ~[catalina.jar:8.5.70]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223) ~[catalina.jar:8.5.70]
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:564) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292]
+	... 12 more
+WARN - AdvicePoint.getClassInstance(64) |2022-10-21T19:14:40,067| Could not get instance for advice point [org.openmrs.module.appointments.service.AppointmentRecurringPatternService]
+java.lang.NoClassDefFoundError: org/ict4h/atomfeed/transaction/AFTransactionWork
+	at java.lang.Class.getDeclaredConstructors0(Native Method) ~[?:1.8.0_292]
+	at java.lang.Class.privateGetDeclaredConstructors(Class.java:2671) ~[?:1.8.0_292]
+	at java.lang.Class.getConstructor0(Class.java:3075) ~[?:1.8.0_292]
+	at java.lang.Class.newInstance(Class.java:412) ~[?:1.8.0_292]
+	at org.openmrs.module.AdvicePoint.getClassInstance(AdvicePoint.java:61) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleFactory.loadAdvice(ModuleFactory.java:882) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.ModuleUtil.refreshApplicationContext(ModuleUtil.java:913) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.module.web.WebModuleUtil.refreshWAC(WebModuleUtil.java:844) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:652) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.performWebStartOfModules(Listener.java:632) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.Listener.startOpenmrs(Listener.java:300) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+	at org.openmrs.web.WebDaemon$1.run(WebDaemon.java:42) ~[openmrs-web-2.5.7-SNAPSHOT.jar:?]
+Caused by: java.lang.ClassNotFoundException: org.ict4h.atomfeed.transaction.AFTransactionWork
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1415) ~[catalina.jar:8.5.70]
+	at org.apache.catalina.loader.WebappClassLoaderBase.loadClass(WebappClassLoaderBase.java:1223) ~[catalina.jar:8.5.70]
+	at org.openmrs.module.ModuleClassLoader.loadClass(ModuleClassLoader.java:564) ~[openmrs-api-2.5.7-SNAPSHOT.jar:?]
+	at java.lang.ClassLoader.loadClass(ClassLoader.java:351) ~[?:1.8.0_292]
+	... 12 more
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,207| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,273| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,274| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,274| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,274| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,536| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,537| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,537| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:40,537| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - HibernateConceptDAO.getConceptByName(1799) |2022-10-21T19:14:40,554| No concept found for '1679a144-0ada-4b90-956d-c957666d8ea6'
+WARN - HibernateConceptDAO.getConceptByName(1799) |2022-10-21T19:14:40,556| No concept found for '1679a144-0ada-4b90-956d-c957666d8ea6'
+WARN - HibernateConceptDAO.getConceptByName(1799) |2022-10-21T19:14:40,558| No concept found for '1679a144-0ada-4b90-956d-c957666d8ea6'
+WARN - HibernateConceptDAO.getConceptByName(1799) |2022-10-21T19:14:40,559| No concept found for '1679a144-0ada-4b90-956d-c957666d8ea6'
+WARN - HibernateConceptDAO.getConceptByName(1799) |2022-10-21T19:14:40,561| No concept found for '1679a144-0ada-4b90-956d-c957666d8ea6'
+WARN - HibernateConceptDAO.getConceptByName(1799) |2022-10-21T19:14:40,562| No concept found for '1679a144-0ada-4b90-956d-c957666d8ea6'
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:41,134| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:41,134| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:41,134| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OrderedFile.<init>(27) |2022-10-21T19:14:41,134| OrderedFile does not provide an implementation to fetch the loading order from files.
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2032) |2022-10-21T19:14:42,995| Unable to find a runtime properties file at /openmrs/openmrs-runtime.properties
+WARN - OpenmrsUtil.getRuntimePropertiesFilePathName(2032) |2022-10-21T19:14:43,115| Unable to find a runtime properties file at /openmrs/openmrs-runtime.properties
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2022-10-21T19:14:43,121| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2022-10-21T19:14:43,123| looking for un-run change sets in snapshot version '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:43,259| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:14:43,395| file 'org/openmrs/liquibase/snapshots/schema-only/liquibase-schema-only-2.4.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:43,507| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:14:44,428| file 'org/openmrs/liquibase/snapshots/core-data/liquibase-core-data-2.4.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:14:44,428| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2022-10-21T19:14:44,429| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:44,493| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2022-10-21T19:14:44,513| file 'org/openmrs/liquibase/updates/liquibase-update-to-latest-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:14:44,513| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(69) |2022-10-21T19:14:44,515| identifying the Liquibase snapshot version that had been used to initialize the OpenMRS database...
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(82) |2022-10-21T19:14:44,517| looking for un-run change sets in snapshot version '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:44,656| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:14:44,787| file 'org/openmrs/liquibase/snapshots/schema-only/liquibase-schema-only-2.4.x.xml' contains 0 un-run change sets
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:44,878| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(95) |2022-10-21T19:14:45,002| file 'org/openmrs/liquibase/snapshots/core-data/liquibase-core-data-2.4.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:14:45,003| Failed to restore the auto commit to true
+INFO - ChangeLogDetective.getInitialLiquibaseSnapshotVersion(113) |2022-10-21T19:14:45,003| the Liquibase snapshot version that had been used to initialize the OpenMRS database is '2.4.x'
+INFO - Slf4JLogger.log(43) |2022-10-21T19:14:45,058| Reading from openmrs.liquibasechangelog
+INFO - ChangeLogDetective.getUnrunLiquibaseUpdateFileNames(149) |2022-10-21T19:14:45,076| file 'org/openmrs/liquibase/updates/liquibase-update-to-latest-2.5.x.xml' contains 0 un-run change sets
+WARN - Slf4JLogger.log(41) |2022-10-21T19:14:45,077| Failed to restore the auto commit to true
+WARN - OpenmrsJspServlet.rescanTldsIfNeeded(56) |2022-10-21T19:14:45,339| Rescanning TLDs
